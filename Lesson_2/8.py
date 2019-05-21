@@ -4,6 +4,7 @@
  которую необходимо посчитать, задаются вводом с клавиатуры.
 """
 
+
 # Решение с помощью рекурсии
 
 def count_number_in_sequence(number, count_of_numbers, counter=0, try_count=0):
@@ -27,7 +28,6 @@ sequence_len = int(input('Введите количество чисел в по
 
 count_number_in_sequence(search_number, sequence_len)
 
-
 # Решение с помощью цикла
 
 search_number = int(input('Ведите искомое число: '))
@@ -42,4 +42,3 @@ for i in range(sequence_len):
         counter += 1
 
 print(f'Число {search_number} встречается {counter} раз(а)')
-
